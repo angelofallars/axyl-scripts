@@ -64,4 +64,4 @@ i3lock \
 --indicator					\
 --time-str="%I:%M:%S %p"		\
 --date-str="%A, %b %d, %G"		\
-#--blur 5					\
+#--blur 5
