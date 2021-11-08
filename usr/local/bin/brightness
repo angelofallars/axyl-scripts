@@ -11,7 +11,7 @@ get_backlight() {
 		BNESS=`xbacklight -get`
 		LIGHT=${BNESS%.*}
 	else
-		LIGHT=$(printf "%.0f\n" `light -G`)
+		LIGHT=$(printf "%.0f\n" "`light -G`")
 	fi
 	echo "${LIGHT}%"
 }
