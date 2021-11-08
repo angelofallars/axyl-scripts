@@ -1,5 +1,6 @@
 #!/bin/env bash
 
+# shellcheck source-path=./
 source colors
 
 FONT="Source Code Pro Medium:size=12"
